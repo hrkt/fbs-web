@@ -13,6 +13,8 @@ RUN npm install --silent
 
 RUN npm run generate
 
+RUN echo $GOOGLE_ANALYTICS_ID
+
 ### STAGE 2: NGINX ###
 FROM nginx:stable-alpine
 
