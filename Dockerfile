@@ -1,7 +1,7 @@
 ### STAGE 1: Build ###
-ENV GOOGLE_ANALYTICS_ID "$GOOGLE_ANALYTICS_ID"
-
 FROM node:14-alpine as build
+
+ENV GOOGLE_ANALYTICS_ID "$GOOGLE_ANALYTICS_ID"
 
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
