@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "ace-builds": "^1.4.12",
+    "ace-builds": "^1.4.13",
     "core-js": "^3.15.1",
     "install": "^0.13.0",
     "nuxt": "^2.15.8",
